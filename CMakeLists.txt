@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 3.1)
+project(main_project CXX)
+add_subdirectory(./facade)
+add_executable(main main.cpp)
+target_link_libraries(main facade)

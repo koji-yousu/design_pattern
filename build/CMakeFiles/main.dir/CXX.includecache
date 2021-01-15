@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../facade/database.h
+model.h
+../facade/model.h
+
+../facade/element.h
+
+../facade/facade.h
+database.h
+../facade/database.h
+
+../facade/model.h
+element.h
+../facade/element.h
+
+/home/yosuke/work/design_pattern/main.cpp
+iostream
+-
+cstdlib
+-
+facade.h
+/home/yosuke/work/design_pattern/facade.h
+
