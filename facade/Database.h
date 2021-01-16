@@ -11,13 +11,13 @@
 #ifndef DATABASE_H
 #define DATABASE_H
 
-#include "model.h"
+#include "Model.h"
 
 class Database
 {
-private:
-	/* data */
-public:
+ private:
+
+ public:
 	Database(/* args */);
 	~Database();
 	void Save(Model &model);

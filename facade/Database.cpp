@@ -9,21 +9,21 @@
  * 
  */
 
-#include "database.h"
+#include "Database.h"
 #include <iostream>
 #include <cstdlib>
 
 Database::Database(/* args */)
 {
-	std::cout << "Database constructor" << std::endl;
+	std::cout << "Database::" << __FUNCTION__ << std::endl;
 }
 
 Database::~Database()
 {
-	std::cout << "Database destructor" << std::endl;
+	std::cout << "Database::" << __FUNCTION__ << std::endl;
 }
 
 void Database::Save(Model &model)
 {
-	std::cout << "Database Save" << std::endl;
+	std::cout << "Database::" << __FUNCTION__ << std::endl;
 }

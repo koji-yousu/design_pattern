@@ -11,7 +11,7 @@
 #ifndef DATABASEFACADE_H
 #define DATABASEFACADE_H
 
-#include "database.h"
+#include "Database.h"
 
 class DatabaseFacade
 {

@@ -8,21 +8,21 @@
  * @copyright Copyright (c) 2021
  * 
  */
-#include "model.h"
+#include "Model.h"
 #include <iostream>
 #include <cstdlib>
 
 Model::Model()
 {
-	std::cout << "Model constructor" << std::endl;
+	std::cout << "Model::" << __FUNCTION__ << std::endl;
 }
 
 Model::Model(Element &e)
 {
-	std::cout << "Model constructor element" << std::endl;
+	std::cout << "Model::" << __FUNCTION__ << std::endl;
 }
 
 Model::~Model()
 {
-	std::cout << "Model destructor" << std::endl;
+	std::cout << "Model::" << __FUNCTION__ << std::endl;
 }

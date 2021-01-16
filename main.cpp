@@ -1,7 +1,8 @@
 #include <iostream>
 #include <cstdlib>
 
-#include "databasefacade.h"
+#include "Databasefacade.h"
+#include "Point.h"
 
 int main()
 {
@@ -9,5 +10,7 @@ int main()
 	DatabaseFacade db_f;
 	db_f.doSomething();
 
+	Point p;
+	p.setLocation(0, 0);
 	return 0;
 }

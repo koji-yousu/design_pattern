@@ -1,6 +1,6 @@
 
-# Created by https://www.toptal.com/developers/gitignore/api/c++,cmake,linux
-# Edit at https://www.toptal.com/developers/gitignore?templates=c++,cmake,linux
+# Created by https://www.toptal.com/developers/gitignore/api/c++,cmake,linux,vscode
+# Edit at https://www.toptal.com/developers/gitignore?templates=c++,cmake,linux,vscode
 
 ### C++ ###
 # Prerequisites
@@ -75,4 +75,12 @@ CMakeUserPresets.json
 # .nfs files are created when an open file is removed but is still being accessed
 .nfs*
 
-# End of https://www.toptal.com/developers/gitignore/api/c++,cmake,linux
+### vscode ###
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+
+# End of https://www.toptal.com/developers/gitignore/api/c++,cmake,linux,vscode

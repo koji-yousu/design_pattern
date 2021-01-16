@@ -9,16 +9,16 @@
  * 
  */
 
-#include "element.h"
+#include "Element.h"
 #include <iostream>
 #include <cstdlib>
 
 Element::Element()
 {
-	std::cout << "Element constructor" << std::endl;
+	std::cout << "Element::" << __FUNCTION__ << std::endl;
 }
 
 Element::~Element()
 {
-	std::cout << "Element destructor" << std::endl;
+	std::cout << "Element::" << __FUNCTION__ << std::endl;
 }

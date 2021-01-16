@@ -11,13 +11,13 @@
 #ifndef MODEL_H
 #define MODEL_H
 
-#include "element.h"
+#include "Element.h"
 
 class Model
 {
-private:
-	/* data */
-public:
+ private:
+
+ public:
 	Model();
 	Model(Element &e);
 	~Model();

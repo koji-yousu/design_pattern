@@ -12,22 +12,24 @@
 #include <iostream>
 #include <cstdlib>
 
-#include "databasefacade.h"
-#include "element.h"
-#include "model.h"
+#include "Databasefacade.h"
+#include "Element.h"
+#include "Model.h"
 
 DatabaseFacade::DatabaseFacade(/* args */)
 {
-	std::cout << "DatabaseFacade constructor" << std::endl;
+	std::cout << "DatabaseFacade::" << __FUNCTION__ << std::endl;
 }
 
 DatabaseFacade::~DatabaseFacade()
 {
-	std::cout << "DatabaseFacade destructor" << std::endl;
+	std::cout << "DatabaseFacade::" << __FUNCTION__ << std::endl;
 }
 
 void DatabaseFacade::doSomething()
 {
+	std::cout << "DatabaseFacade::" << __FUNCTION__ << std::endl;
+
 	Element e;
 	Model m(e);
 	m_db.Save(m);

@@ -13,9 +13,9 @@
 
 class Element
 {
-private:
-	/* data */
-public:
+ private:
+
+ public:
 	Element();
 	~Element();
 };
