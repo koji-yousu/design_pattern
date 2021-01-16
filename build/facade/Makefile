@@ -171,6 +171,33 @@ database.cpp.s:
 	cd /home/yosuke/work/design_pattern/build && $(MAKE) $(MAKESILENT) -f facade/CMakeFiles/facade.dir/build.make facade/CMakeFiles/facade.dir/database.cpp.s
 .PHONY : database.cpp.s
 
+databasefacade.o: databasefacade.cpp.o
+
+.PHONY : databasefacade.o
+
+# target to build an object file
+databasefacade.cpp.o:
+	cd /home/yosuke/work/design_pattern/build && $(MAKE) $(MAKESILENT) -f facade/CMakeFiles/facade.dir/build.make facade/CMakeFiles/facade.dir/databasefacade.cpp.o
+.PHONY : databasefacade.cpp.o
+
+databasefacade.i: databasefacade.cpp.i
+
+.PHONY : databasefacade.i
+
+# target to preprocess a source file
+databasefacade.cpp.i:
+	cd /home/yosuke/work/design_pattern/build && $(MAKE) $(MAKESILENT) -f facade/CMakeFiles/facade.dir/build.make facade/CMakeFiles/facade.dir/databasefacade.cpp.i
+.PHONY : databasefacade.cpp.i
+
+databasefacade.s: databasefacade.cpp.s
+
+.PHONY : databasefacade.s
+
+# target to generate assembly for a file
+databasefacade.cpp.s:
+	cd /home/yosuke/work/design_pattern/build && $(MAKE) $(MAKESILENT) -f facade/CMakeFiles/facade.dir/build.make facade/CMakeFiles/facade.dir/databasefacade.cpp.s
+.PHONY : databasefacade.cpp.s
+
 element.o: element.cpp.o
 
 .PHONY : element.o
@@ -197,33 +224,6 @@ element.s: element.cpp.s
 element.cpp.s:
 	cd /home/yosuke/work/design_pattern/build && $(MAKE) $(MAKESILENT) -f facade/CMakeFiles/facade.dir/build.make facade/CMakeFiles/facade.dir/element.cpp.s
 .PHONY : element.cpp.s
-
-facade.o: facade.cpp.o
-
-.PHONY : facade.o
-
-# target to build an object file
-facade.cpp.o:
-	cd /home/yosuke/work/design_pattern/build && $(MAKE) $(MAKESILENT) -f facade/CMakeFiles/facade.dir/build.make facade/CMakeFiles/facade.dir/facade.cpp.o
-.PHONY : facade.cpp.o
-
-facade.i: facade.cpp.i
-
-.PHONY : facade.i
-
-# target to preprocess a source file
-facade.cpp.i:
-	cd /home/yosuke/work/design_pattern/build && $(MAKE) $(MAKESILENT) -f facade/CMakeFiles/facade.dir/build.make facade/CMakeFiles/facade.dir/facade.cpp.i
-.PHONY : facade.cpp.i
-
-facade.s: facade.cpp.s
-
-.PHONY : facade.s
-
-# target to generate assembly for a file
-facade.cpp.s:
-	cd /home/yosuke/work/design_pattern/build && $(MAKE) $(MAKESILENT) -f facade/CMakeFiles/facade.dir/build.make facade/CMakeFiles/facade.dir/facade.cpp.s
-.PHONY : facade.cpp.s
 
 model.o: model.cpp.o
 
@@ -264,12 +264,12 @@ help:
 	@echo "... database.o"
 	@echo "... database.i"
 	@echo "... database.s"
+	@echo "... databasefacade.o"
+	@echo "... databasefacade.i"
+	@echo "... databasefacade.s"
 	@echo "... element.o"
 	@echo "... element.i"
 	@echo "... element.s"
-	@echo "... facade.o"
-	@echo "... facade.i"
-	@echo "... facade.s"
 	@echo "... model.o"
 	@echo "... model.i"
 	@echo "... model.s"

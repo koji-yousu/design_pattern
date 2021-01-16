@@ -1,13 +1,13 @@
 #include <iostream>
 #include <cstdlib>
 
-#include "facade.h"
+#include "databasefacade.h"
 
 int main()
 {
 	std::cout << "Hello, Wandbox!" << std::endl;
-	Facade f;
-	f.doSomething();
+	DatabaseFacade db_f;
+	db_f.doSomething();
 
 	return 0;
 }

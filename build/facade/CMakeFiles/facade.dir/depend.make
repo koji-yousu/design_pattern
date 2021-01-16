@@ -6,14 +6,14 @@ facade/CMakeFiles/facade.dir/database.cpp.o: ../facade/database.h
 facade/CMakeFiles/facade.dir/database.cpp.o: ../facade/element.h
 facade/CMakeFiles/facade.dir/database.cpp.o: ../facade/model.h
 
+facade/CMakeFiles/facade.dir/databasefacade.cpp.o: ../facade/database.h
+facade/CMakeFiles/facade.dir/databasefacade.cpp.o: ../facade/databasefacade.cpp
+facade/CMakeFiles/facade.dir/databasefacade.cpp.o: ../facade/databasefacade.h
+facade/CMakeFiles/facade.dir/databasefacade.cpp.o: ../facade/element.h
+facade/CMakeFiles/facade.dir/databasefacade.cpp.o: ../facade/model.h
+
 facade/CMakeFiles/facade.dir/element.cpp.o: ../facade/element.cpp
 facade/CMakeFiles/facade.dir/element.cpp.o: ../facade/element.h
-
-facade/CMakeFiles/facade.dir/facade.cpp.o: ../facade/database.h
-facade/CMakeFiles/facade.dir/facade.cpp.o: ../facade/element.h
-facade/CMakeFiles/facade.dir/facade.cpp.o: ../facade/facade.cpp
-facade/CMakeFiles/facade.dir/facade.cpp.o: ../facade/facade.h
-facade/CMakeFiles/facade.dir/facade.cpp.o: ../facade/model.h
 
 facade/CMakeFiles/facade.dir/model.cpp.o: ../facade/element.h
 facade/CMakeFiles/facade.dir/model.cpp.o: ../facade/model.cpp

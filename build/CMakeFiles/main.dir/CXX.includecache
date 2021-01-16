@@ -10,11 +10,11 @@
 model.h
 ../facade/model.h
 
-../facade/element.h
-
-../facade/facade.h
+../facade/databasefacade.h
 database.h
 ../facade/database.h
+
+../facade/element.h
 
 ../facade/model.h
 element.h
@@ -25,6 +25,6 @@ iostream
 -
 cstdlib
 -
-facade.h
-/home/yosuke/work/design_pattern/facade.h
+databasefacade.h
+/home/yosuke/work/design_pattern/databasefacade.h
 

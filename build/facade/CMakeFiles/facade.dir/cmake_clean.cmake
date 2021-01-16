@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/facade.dir/database.cpp.o"
+  "CMakeFiles/facade.dir/databasefacade.cpp.o"
   "CMakeFiles/facade.dir/element.cpp.o"
-  "CMakeFiles/facade.dir/facade.cpp.o"
   "CMakeFiles/facade.dir/model.cpp.o"
   "libfacade.a"
   "libfacade.pdb"

@@ -6,51 +6,27 @@
 
 #IncludeRegexTransform: 
 
-/home/yosuke/work/design_pattern/facade/database.cpp
-database.h
-/home/yosuke/work/design_pattern/facade/database.h
-iostream
--
-cstdlib
--
-
 /home/yosuke/work/design_pattern/facade/database.h
 model.h
 /home/yosuke/work/design_pattern/facade/model.h
 
-/home/yosuke/work/design_pattern/facade/element.cpp
-element.h
-/home/yosuke/work/design_pattern/facade/element.h
+/home/yosuke/work/design_pattern/facade/databasefacade.cpp
 iostream
 -
 cstdlib
 -
-
-/home/yosuke/work/design_pattern/facade/element.h
-
-/home/yosuke/work/design_pattern/facade/facade.cpp
-iostream
--
-cstdlib
--
-facade.h
-/home/yosuke/work/design_pattern/facade/facade.h
+databasefacade.h
+/home/yosuke/work/design_pattern/facade/databasefacade.h
 element.h
 /home/yosuke/work/design_pattern/facade/element.h
 model.h
 /home/yosuke/work/design_pattern/facade/model.h
 
-/home/yosuke/work/design_pattern/facade/facade.h
+/home/yosuke/work/design_pattern/facade/databasefacade.h
 database.h
 /home/yosuke/work/design_pattern/facade/database.h
 
-/home/yosuke/work/design_pattern/facade/model.cpp
-model.h
-/home/yosuke/work/design_pattern/facade/model.h
-iostream
--
-cstdlib
--
+/home/yosuke/work/design_pattern/facade/element.h
 
 /home/yosuke/work/design_pattern/facade/model.h
 element.h

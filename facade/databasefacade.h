@@ -1,5 +1,5 @@
 /**
- * @file facade.h
+ * @file databasefacade.h
  * @author your name (you@domain.com)
  * @brief 
  * @version 0.1
@@ -8,21 +8,21 @@
  * @copyright Copyright (c) 2021
  * 
  */
-#ifndef FACADE_H
-#define FACADE_H
+#ifndef DATABASEFACADE_H
+#define DATABASEFACADE_H
 
 #include "database.h"
 
-class Facade
+class DatabaseFacade
 {
 private:
 	Database m_db;
 
 public:
-	Facade(/* args */);
-	~Facade();
+	DatabaseFacade(/* args */);
+	~DatabaseFacade();
 	void doSomething();
 };
 
-#endif // FACADE_H
+#endif // DATABASEFACADE_H
 

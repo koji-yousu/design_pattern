@@ -76,18 +76,18 @@ include facade/CMakeFiles/facade.dir/progress.make
 # Include the compile flags for this target's objects.
 include facade/CMakeFiles/facade.dir/flags.make
 
-facade/CMakeFiles/facade.dir/facade.cpp.o: facade/CMakeFiles/facade.dir/flags.make
-facade/CMakeFiles/facade.dir/facade.cpp.o: ../facade/facade.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yosuke/work/design_pattern/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object facade/CMakeFiles/facade.dir/facade.cpp.o"
-	cd /home/yosuke/work/design_pattern/build/facade && /usr/bin/g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/facade.dir/facade.cpp.o -c /home/yosuke/work/design_pattern/facade/facade.cpp
+facade/CMakeFiles/facade.dir/databasefacade.cpp.o: facade/CMakeFiles/facade.dir/flags.make
+facade/CMakeFiles/facade.dir/databasefacade.cpp.o: ../facade/databasefacade.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yosuke/work/design_pattern/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object facade/CMakeFiles/facade.dir/databasefacade.cpp.o"
+	cd /home/yosuke/work/design_pattern/build/facade && /usr/bin/g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/facade.dir/databasefacade.cpp.o -c /home/yosuke/work/design_pattern/facade/databasefacade.cpp
 
-facade/CMakeFiles/facade.dir/facade.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/facade.dir/facade.cpp.i"
-	cd /home/yosuke/work/design_pattern/build/facade && /usr/bin/g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yosuke/work/design_pattern/facade/facade.cpp > CMakeFiles/facade.dir/facade.cpp.i
+facade/CMakeFiles/facade.dir/databasefacade.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/facade.dir/databasefacade.cpp.i"
+	cd /home/yosuke/work/design_pattern/build/facade && /usr/bin/g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yosuke/work/design_pattern/facade/databasefacade.cpp > CMakeFiles/facade.dir/databasefacade.cpp.i
 
-facade/CMakeFiles/facade.dir/facade.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/facade.dir/facade.cpp.s"
-	cd /home/yosuke/work/design_pattern/build/facade && /usr/bin/g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yosuke/work/design_pattern/facade/facade.cpp -o CMakeFiles/facade.dir/facade.cpp.s
+facade/CMakeFiles/facade.dir/databasefacade.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/facade.dir/databasefacade.cpp.s"
+	cd /home/yosuke/work/design_pattern/build/facade && /usr/bin/g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yosuke/work/design_pattern/facade/databasefacade.cpp -o CMakeFiles/facade.dir/databasefacade.cpp.s
 
 facade/CMakeFiles/facade.dir/element.cpp.o: facade/CMakeFiles/facade.dir/flags.make
 facade/CMakeFiles/facade.dir/element.cpp.o: ../facade/element.cpp
@@ -130,7 +130,7 @@ facade/CMakeFiles/facade.dir/database.cpp.s: cmake_force
 
 # Object files for target facade
 facade_OBJECTS = \
-"CMakeFiles/facade.dir/facade.cpp.o" \
+"CMakeFiles/facade.dir/databasefacade.cpp.o" \
 "CMakeFiles/facade.dir/element.cpp.o" \
 "CMakeFiles/facade.dir/model.cpp.o" \
 "CMakeFiles/facade.dir/database.cpp.o"
@@ -138,7 +138,7 @@ facade_OBJECTS = \
 # External object files for target facade
 facade_EXTERNAL_OBJECTS =
 
-facade/libfacade.a: facade/CMakeFiles/facade.dir/facade.cpp.o
+facade/libfacade.a: facade/CMakeFiles/facade.dir/databasefacade.cpp.o
 facade/libfacade.a: facade/CMakeFiles/facade.dir/element.cpp.o
 facade/libfacade.a: facade/CMakeFiles/facade.dir/model.cpp.o
 facade/libfacade.a: facade/CMakeFiles/facade.dir/database.cpp.o
