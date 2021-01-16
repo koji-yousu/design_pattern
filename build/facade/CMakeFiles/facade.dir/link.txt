@@ -1,2 +1,0 @@
-/usr/bin/ar qc libfacade.a CMakeFiles/facade.dir/databasefacade.cpp.o CMakeFiles/facade.dir/element.cpp.o CMakeFiles/facade.dir/model.cpp.o CMakeFiles/facade.dir/database.cpp.o
-/usr/bin/ranlib libfacade.a
